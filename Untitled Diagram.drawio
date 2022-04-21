@@ -1,1 +1,137 @@
-<mxfile host="app.diagrams.net" modified="2022-04-21T03:13:54.729Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" version="16.6.6" etag="qYQRo2pIOYXiJ828SW7i" type="github"><diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">7VhZc9MwEP41Hp5gfBQnecRp0wKhU2ihw6NiK7aI7DWynINfzyqWYzsOOYD0yDQv0a43K2m/b4/YcPrx/FKQNPoEAeWGbQZzwzk3bNuybQe/lGZRaLq9bqEIBQu0UaW4Zb+oVppam7OAZg1DCcAlS5tKH5KE+rKhI0LArGk2Bt7cNSUhbSlufcLb2nsWyEjfwu5U+ivKwqjc2XJ7xZOYlMb6JllEApjVVM6F4fQFgCxW8bxPuQpeGZf794t7Ppy4lx8+Zz/JV+/j3fW314WzwSE/WV1B0ET+X9d24XpKeK7jpe8qF2UABeRJQJUT03C8SMYclxYuf1ApFxpwkktAFQgZQQgJ4UOAVNuNIZHazFIyTYJ3CliURxz8SaEaMM71Hihp+y5KmRQwWWGnHKyAUMacjCj3iD8JlwftAweBjxJIqHIVIBn0XarDXVRab8/YagwyyIVPt9jpbJFEhHSbP7ewU+er8VQjd0khplIs0EBQTiSbNslMdE6EK7sKd1xo6A+ggdOiwZDEqcp6oFnySuJqBmKyhRsKl1nEJL1NyTJAMywnTb7UeYBX9UJOskyjuAPkw0CaUiHpfGtYy6euzu2yuGlxVlUKq0z/qFYlzswjAXHWAuI7Fs+XlPyXlHT3TMmyY+3MSU2Wkhh7p6j2dAMskTUTGI8zPNg6dVYb/j2b3rbYdA0tMu3G41nT7ZHI1DmMS9aT55L7hxbhcgyDNxK4CtUq5XkYIlnQXWI4g3btiiAe5dnudtHAWDFoQGLGVbyuKJ9SyXyyoakQzkLc99xHuKnYTB7ckiUhSm4l3S3JivX3iM2m02w2K7nebcwN3aZ7rG7TaWF6g+gV0NkmX+J7Yh3fsddA6D12y+/uU6SfdQl+8I5fVtPdLd/as0xr9phvHPw0CPT0p4DeXjPlyxhwHIbZpzYIlCes8cnL+ag9CYxykSwHAcjlyySwbRKwNzWhB50EykJYA/ULTQlDMM3hKc4B6//8z5zHngPKStGEgKuY2maRYSeGwfos5ljHwwDF6k1tUQqr993OxW8=</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-21T03:48:30.256Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="yu6rmWMAOb_6M4MXp3Cg" version="16.6.6" type="github">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="990" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-2" value="" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=1;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-3" target="b0SHrZwLrEvn_XhFRAAw-0" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" value="开始" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="50" y="40" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="b0SHrZwLrEvn_XhFRAAw-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="b0SHrZwLrEvn_XhFRAAw-0" target="b0SHrZwLrEvn_XhFRAAw-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b0SHrZwLrEvn_XhFRAAw-0" value="RD开发完成触发流水线" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="50" y="120" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="b0SHrZwLrEvn_XhFRAAw-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="b0SHrZwLrEvn_XhFRAAw-1" target="b0SHrZwLrEvn_XhFRAAw-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b0SHrZwLrEvn_XhFRAAw-1" value="流水线中全自动化流水线规则判断" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="50" y="190" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="b0SHrZwLrEvn_XhFRAAw-6" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;dashed=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="b0SHrZwLrEvn_XhFRAAw-2" target="b0SHrZwLrEvn_XhFRAAw-5">
+          <mxGeometry x="0.1429" y="10" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b0SHrZwLrEvn_XhFRAAw-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=3;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="b0SHrZwLrEvn_XhFRAAw-2" target="b0SHrZwLrEvn_XhFRAAw-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="110" y="360" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b0SHrZwLrEvn_XhFRAAw-10" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=3;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="b0SHrZwLrEvn_XhFRAAw-2" target="b0SHrZwLrEvn_XhFRAAw-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="10" y="310" />
+              <mxPoint x="10" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b0SHrZwLrEvn_XhFRAAw-2" value="是否需人工补充测试" style="rhombus;whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;arcSize=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="50" y="270" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="b0SHrZwLrEvn_XhFRAAw-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=0;dashed=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="b0SHrZwLrEvn_XhFRAAw-5" target="b0SHrZwLrEvn_XhFRAAw-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b0SHrZwLrEvn_XhFRAAw-5" value="人工补充测试" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;arcSize=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="240" y="290" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="b0SHrZwLrEvn_XhFRAAw-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=block;endFill=0;strokeWidth=3;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="b0SHrZwLrEvn_XhFRAAw-8" target="b0SHrZwLrEvn_XhFRAAw-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="110" y="530" />
+              <mxPoint x="190" y="530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b0SHrZwLrEvn_XhFRAAw-8" value="执行全自动流水线" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;arcSize=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="60" y="450" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="b0SHrZwLrEvn_XhFRAAw-17" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="130" y="590" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="b0SHrZwLrEvn_XhFRAAw-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="b0SHrZwLrEvn_XhFRAAw-20" target="b0SHrZwLrEvn_XhFRAAw-24">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="398" />
+              <mxPoint x="460" y="398" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b0SHrZwLrEvn_XhFRAAw-20" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="360" y="385" width="60" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="b0SHrZwLrEvn_XhFRAAw-21" value="" style="swimlane;startSize=0;strokeWidth=2;strokeColor=#FF3333;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="220" y="250" width="130" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="b0SHrZwLrEvn_XhFRAAw-13" value="人工补充测试完毕" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;arcSize=0;" vertex="1" parent="b0SHrZwLrEvn_XhFRAAw-21">
+          <mxGeometry x="8.119999999999996" y="200" width="113.75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="b0SHrZwLrEvn_XhFRAAw-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="b0SHrZwLrEvn_XhFRAAw-24" target="b0SHrZwLrEvn_XhFRAAw-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b0SHrZwLrEvn_XhFRAAw-24" value="判断补充测试工作是否可以接入流水线或者流水线的可以优化已接受这部分工作。" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="460" y="355" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="b0SHrZwLrEvn_XhFRAAw-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="b0SHrZwLrEvn_XhFRAAw-26" target="b0SHrZwLrEvn_XhFRAAw-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="b0SHrZwLrEvn_XhFRAAw-26" value="" style="shape=singleArrow;whiteSpace=wrap;html=1;arrowWidth=0.28;arrowSize=0.228;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="180" y="195" width="250" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="b0SHrZwLrEvn_XhFRAAw-27" value="具体规则参考下文" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="460" y="177.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b0SHrZwLrEvn_XhFRAAw-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=block;endFill=1;dashed=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="b0SHrZwLrEvn_XhFRAAw-13" target="b0SHrZwLrEvn_XhFRAAw-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="285" y="530" />
+              <mxPoint x="190" y="530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b0SHrZwLrEvn_XhFRAAw-33" value="优化判断规则" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="b0SHrZwLrEvn_XhFRAAw-30" target="b0SHrZwLrEvn_XhFRAAw-27">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="260" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="650" y="208" />
+              <mxPoint x="640" y="208" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b0SHrZwLrEvn_XhFRAAw-34" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="b0SHrZwLrEvn_XhFRAAw-33">
+          <mxGeometry x="-0.7349" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b0SHrZwLrEvn_XhFRAAw-37" value="迭代优化全自动流水线" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;endArrow=block;endFill=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="b0SHrZwLrEvn_XhFRAAw-30" target="b0SHrZwLrEvn_XhFRAAw-36">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="740" y="310" />
+              <mxPoint x="740" y="570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b0SHrZwLrEvn_XhFRAAw-30" value="是否可优化流水线" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="610" y="270" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="b0SHrZwLrEvn_XhFRAAw-36" value="全自动流水线" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;strokeColor=#FF3333;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="430" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
