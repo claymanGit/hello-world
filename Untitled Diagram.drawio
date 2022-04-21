@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-21T03:48:30.256Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="yu6rmWMAOb_6M4MXp3Cg" version="16.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-21T03:51:26.267Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="qH6tO7UlCot9DdwEJ7Ur" version="16.6.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="990" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -130,6 +130,15 @@
         </mxCell>
         <mxCell id="b0SHrZwLrEvn_XhFRAAw-36" value="全自动流水线" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;strokeColor=#FF3333;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="430" y="540" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="b0SHrZwLrEvn_XhFRAAw-38" value="&lt;font style=&quot;font-size: 14px&quot;&gt;在迭代优化中持续优化提升全自动化流水线能力&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="420" y="130" width="310" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="b0SHrZwLrEvn_XhFRAAw-39" value="" style="swimlane;startSize=0;strokeWidth=2;strokeColor=#FF3333;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="390" y="170" width="390" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="b0SHrZwLrEvn_XhFRAAw-40" value="人工补充测试完毕" style="whiteSpace=wrap;html=1;rounded=1;glass=0;strokeWidth=1;shadow=0;arcSize=0;" vertex="1" parent="b0SHrZwLrEvn_XhFRAAw-39">
+          <mxGeometry x="8.119999999999996" y="200" width="113.75" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
