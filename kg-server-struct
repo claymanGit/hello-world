@@ -1,1 +1,97 @@
-<mxfile host="app.diagrams.net" modified="2022-04-28T08:16:24.865Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" version="17.4.6" etag="YaLQd-1ls5q_KLXN4JbV" type="github"><diagram id="-Wx8_JJUoadByL8nXsf8">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-28T10:11:45.346Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="2au7KhVRf4SPtPIXh0BX" version="17.4.6" type="github">
+  <diagram id="-Wx8_JJUoadByL8nXsf8" name="Page-1">
+    <mxGraphModel dx="1381" dy="737" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="n0MstpakHOMlm79YhEsV-14" value="创建icafe，并配置icafe卡片" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeColor=#788AA3;fontColor=#46495D;" edge="1" parent="1" source="n0MstpakHOMlm79YhEsV-1" target="n0MstpakHOMlm79YhEsV-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="130" y="70" />
+              <mxPoint x="470" y="70" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n0MstpakHOMlm79YhEsV-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeColor=#788AA3;fontColor=#46495D;" edge="1" parent="1" source="n0MstpakHOMlm79YhEsV-1" target="n0MstpakHOMlm79YhEsV-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n0MstpakHOMlm79YhEsV-16" value="合入代码触发流水线" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#46495D;" vertex="1" connectable="0" parent="n0MstpakHOMlm79YhEsV-15">
+          <mxGeometry x="-0.0258" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n0MstpakHOMlm79YhEsV-1" value="RD" style="shape=actor;whiteSpace=wrap;html=1;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="1">
+          <mxGeometry x="110" y="130" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n0MstpakHOMlm79YhEsV-27" value="触发工作任务" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.993;entryY=0.067;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#788AA3;fontColor=#46495D;" edge="1" parent="1" source="n0MstpakHOMlm79YhEsV-2" target="n0MstpakHOMlm79YhEsV-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n0MstpakHOMlm79YhEsV-29" value="配置icafe空间字段信息&lt;br&gt;手动调整icafe卡片属性配置" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#788AA3;fontColor=#46495D;" edge="1" parent="1" source="n0MstpakHOMlm79YhEsV-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="90" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="760" y="70" />
+              <mxPoint x="470" y="70" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n0MstpakHOMlm79YhEsV-26" value="获取对应流水线信息" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;strokeColor=#788AA3;fontColor=#46495D;" edge="1" parent="1" source="n0MstpakHOMlm79YhEsV-11" target="n0MstpakHOMlm79YhEsV-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n0MstpakHOMlm79YhEsV-2" value="QA" style="shape=actor;whiteSpace=wrap;html=1;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="1">
+          <mxGeometry x="740" y="110" width="40" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="n0MstpakHOMlm79YhEsV-7" value="icafe 平台" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="1">
+          <mxGeometry x="390" y="95" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="n0MstpakHOMlm79YhEsV-8" value="1. 卡片状态流转" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontColor=#46495D;" vertex="1" parent="n0MstpakHOMlm79YhEsV-7">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="n0MstpakHOMlm79YhEsV-9" value="2. icafe 字段构建" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontColor=#46495D;" vertex="1" parent="n0MstpakHOMlm79YhEsV-7">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="n0MstpakHOMlm79YhEsV-25" value="获取对应流水线测试信息" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;strokeColor=#788AA3;fontColor=#46495D;" edge="1" parent="1" source="n0MstpakHOMlm79YhEsV-11" target="n0MstpakHOMlm79YhEsV-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n0MstpakHOMlm79YhEsV-11" value="如流机器人" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="1">
+          <mxGeometry x="390" y="210" width="140" height="90" as="geometry">
+            <mxRectangle x="390" y="220" width="120" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="n0MstpakHOMlm79YhEsV-12" value="1. 获取流水线提测信息" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontColor=#46495D;" vertex="1" parent="n0MstpakHOMlm79YhEsV-11">
+          <mxGeometry y="30" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="n0MstpakHOMlm79YhEsV-30" value="2. 发送命令到流水线" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;fontColor=#46495D;" vertex="1" parent="n0MstpakHOMlm79YhEsV-11">
+          <mxGeometry y="60" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="n0MstpakHOMlm79YhEsV-18" value="反馈给如流服务" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.486;entryY=1.067;entryDx=0;entryDy=0;entryPerimeter=0;strokeColor=#788AA3;fontColor=#46495D;" edge="1" parent="1" source="n0MstpakHOMlm79YhEsV-17" target="n0MstpakHOMlm79YhEsV-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n0MstpakHOMlm79YhEsV-32" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.486;entryY=0.967;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#46495D;strokeColor=#788AA3;fillColor=#B2C9AB;" edge="1" parent="1" source="n0MstpakHOMlm79YhEsV-17" target="n0MstpakHOMlm79YhEsV-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n0MstpakHOMlm79YhEsV-17" value="如流&amp;amp;&amp;amp;流水线&lt;br&gt;中转服务" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="1">
+          <mxGeometry x="400" y="331.25" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="n0MstpakHOMlm79YhEsV-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#788AA3;fontColor=#46495D;" edge="1" parent="1" source="n0MstpakHOMlm79YhEsV-21" target="n0MstpakHOMlm79YhEsV-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="n0MstpakHOMlm79YhEsV-33" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="180" y="510" width="730" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="n0MstpakHOMlm79YhEsV-5" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="n0MstpakHOMlm79YhEsV-33">
+          <mxGeometry y="30" width="730" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="n0MstpakHOMlm79YhEsV-21" value="提测" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#B2C9AB;strokeColor=#788AA3;fontColor=#46495D;" vertex="1" parent="n0MstpakHOMlm79YhEsV-33">
+          <mxGeometry x="30" y="38.75" width="94" height="32.5" as="geometry" />
+        </mxCell>
+        <mxCell id="n0MstpakHOMlm79YhEsV-31" value="全自动流水线" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontColor=#46495D;" vertex="1" parent="n0MstpakHOMlm79YhEsV-33">
+          <mxGeometry x="320" y="10" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="n0MstpakHOMlm79YhEsV-34" style="edgeStyle=orthogonalEdgeStyle;curved=0;rounded=1;sketch=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.55;entryY=0.95;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#46495D;strokeColor=#788AA3;fillColor=#B2C9AB;" edge="1" parent="1" source="n0MstpakHOMlm79YhEsV-5" target="n0MstpakHOMlm79YhEsV-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
